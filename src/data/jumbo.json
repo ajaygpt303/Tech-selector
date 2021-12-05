@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Find the perfect electronic devies",
+    "subTitle": "We can help you find your dream devices",
+    "image": "https://papers.co/wallpaper/papers.co-nb43-apple-logo-dark-bw-life-night-black-36-3840x2400-4k-wallpaper.jpg",
+    "alt": "Laptop with black background",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Need help with finding the perfect smartphone?",
+    "subTitle": "We can find it for you for free with just few quetions?",
+    "image": "../images/misc/home-mobile.jpg",
+    "alt": "Tiger King on Netflix on Random Smartphone",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Laptops, cameras or phones",
+    "subTitle": "We find the device you want within the budget you want",
+    "image": "../images/misc/home-imac.jpg",
+    "alt": "Random devies with cool background",
+    "direction": "row"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "header": "What is Techselector?",
+    "body": "Techselector is a free to use website that provides recommendations based on your answers to our carefully created questions.\n\nYou can use it to find laptops, cameras or phones and use it how ever many times you want, or free!!!"
+  },
+  {
+    "id": 2,
+    "header": "How much does it cost ?",
+    "body": "Our website is free to use and is supported via non-intrusive ads."
+  },
+  {
+    "id": 3,
+    "header": "Where can I access it ?",
+    "body": "Currently access is limited to pc and laptop. Only desktop site is available.\n\n There are currently no plans or updates regarding access via mobiles."
+  },
+  {
+    "id": 4,
+    "header": "How does it work ?",
+    "body": "You just need to answer our carefully crafted easily understandable questions regarding your needs."
+  },
+  {
+    "id": 5,
+    "header": "What devices are available ?",
+    "body": "We currently provide recommendations for cameras, smartphones and laptops."
+  }
+]
