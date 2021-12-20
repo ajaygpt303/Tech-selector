@@ -10,8 +10,7 @@ To be able to use this react app locally in a development environment you will n
 3) Then From your terminal, you should do the following:
 
 4) Install dependencies
-
-npm install
+# npm install
 
 ```
 
@@ -60,8 +59,7 @@ const config = {
 
 ```
 7) Run the app
-8) 
-npm start
+# npm start
 ```
 
 9) Now you can see the project in your browser.
