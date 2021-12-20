@@ -10,7 +10,7 @@ To be able to use this react app locally in a development environment you will n
 3) Then From your terminal, you should do the following:
 
 4) Install dependencies
-# npm install
+### npm install
 
 ```
 
