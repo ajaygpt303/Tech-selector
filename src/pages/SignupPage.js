@@ -23,12 +23,26 @@ function SignupPage() {
   const [firstName, setFirstName] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setconfirmPassword] = useState("");
   const [error, setError] = useState("");
 
-  const IsInvalid = password === "" || emailAddress === "" || firstName === "";
+  const IsInvalid = password === "" ||  emailAddress === "" || firstName === "";
+  const isPasswordConfirmed = (password,confimPassword) => {
+    if(password && confimPassword && password === confimPassword) return true;
+    return false;
+}
 
-  function handleSubmit(event) {
+const handleSubmit = (event) => {
     event.preventDefault();
+
+    if(!isPasswordConfirmed(password,confirmPassword)){
+        // password is not matching
+        return(
+          <HeaderWrapper className="header-wrapper-home">
+            Password don't match
+          </HeaderWrapper>
+        );
+    }
 
     firebase
       .auth()
@@ -77,6 +91,13 @@ function SignupPage() {
               autoComplete="off"
               value={password}
               onChange={({ target }) => setPassword(target.value)}
+            />
+            <SignFormInput
+              type="password"
+              placeholder="Confirm Password"
+              autoComplete="off"
+              value={confirmPassword}
+              onChange={({ target }) => setconfirmPassword(target.value)}
             />
             <SignFormButton disabled={IsInvalid}>Sign Up</SignFormButton>
             <SignFormText>

@@ -48,7 +48,7 @@ function SigninPage() {
         </NavBar>
         <SignFormWrapper>
           <SignFormBase onSubmit={handleSubmit} method="POST">
-            <Warning>Welcome to Techseector</Warning>
+            <Warning>Welcome to Techselector</Warning>
             <SignFormTitle>Sign In</SignFormTitle>
             {error ? <SignFormError>{error}</SignFormError> : null}
             <SignFormInput
