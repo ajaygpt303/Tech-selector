@@ -9,13 +9,6 @@ To be able to use this react app locally in a development environment you will n
 
 3) Then From your terminal, you should do the following:
 
-```cmd
-# Clone this repository
-git clone https://github.com/AhmedTohamy01/React-Netflix-Clone
-
-# Go into the repository
-cd react-netflix-clone
-
 # Install dependencies
 npm install
 
