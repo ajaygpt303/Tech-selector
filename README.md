@@ -12,9 +12,6 @@ To be able to use this react app locally in a development environment you will n
 # Install dependencies
 npm install
 
-# Run the app
-npm start
-
 ```
 
 5) Then you will need to create the ./src/lib/firebase.prod.js file in your local repo, The content of firebase.prod.js file will be like the following:
